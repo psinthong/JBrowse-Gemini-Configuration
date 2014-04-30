@@ -1,0 +1,20 @@
+{
+   "tracks" : [
+      {
+         "autocomplete" : "all",
+         "key" : "Gemini_Data",
+         "baseUrl" : "http://localhost:8088/",
+         "type" : "JBrowse/View/Track/HTMLFeatures",
+         "label" : "Gemini_Data",
+	 "storeClass" : "JBrowse/Store/SeqFeature/REST",
+	 "query":{
+	 }
+      }
+   ],
+   "names" : {
+      "url" : "names/",
+      "type" : "Hash"
+   },
+   "dataset_id" : "human",
+   "formatVersion" : 1
+}
